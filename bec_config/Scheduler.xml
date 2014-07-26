@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<?xml-stylesheet href="acs.xsl" type="text/xsl" ?>
+<Scheduler>
+	<job id="0">
+		<time>000500</time>   <!-- notice -->
+		<delay>000003</delay>
+		<day>1,2,3,4,5,6,7</day>
+		<loop>0</loop> 
+		<cmd>say -1 This Server Restarts Every 2 Hours With Multiple Warnings.</cmd>
+		<cmdtype>0</cmdtype>			
+	</job>
+</Scheduler>
